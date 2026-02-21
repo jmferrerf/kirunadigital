@@ -4,9 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiruna Digital | Creamos juegos simples y divertidos</title>
+    <title>Kiruna Digital | Mini Juegos Offline y Juegos en Familia</title>
+    <meta name="google-site-verification" content="0YAVs3E23YlJt9WGwsTEJnpcTLglJtcXQ3_7IF0MDr8" />
     <meta name="description"
-        content="En Kiruna Digital nos enfocamos en experiencias accesibles que conectan a las personas a través del juego y la tecnología.">
+        content="En Kiruna Digital creamos juegos simples y divertidos sin wifi (offline). Disfruta de mini juegos multijugador local como Duelo en Pantalla y Juegos del Impostor.">
+    <meta name="keywords"
+        content="mini juegos, juegos sin wifi, juegos offline, multijugador local, juegos en familia, duelo en pantalla, juego del impostor">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kirunadigital.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kirunadigital.com/">
+    <meta property="og:title" content="Kiruna Digital | Mini Juegos Offline y Divertidos">
+    <meta property="og:description"
+        content="Descubre experiencias simples y divertidas que conectan a las personas. Juegos multijugador local perfectos para cualquier momento.">
+    <meta property="og:image" content="https://kirunadigital.com/assets/duelo_portada.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kirunadigital.com/">
+    <meta property="twitter:title" content="Kiruna Digital | Mini Juegos Offline">
+    <meta property="twitter:description"
+        content="Juegos simples y divertidos para compartir en familia o con amigos, sin necesidad de conexión.">
+    <meta property="twitter:image" content="https://kirunadigital.com/assets/duelo_portada.png">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Kiruna Digital",
+      "url": "https://kirunadigital.com/",
+      "logo": "https://kirunadigital.com/assets/duelo_portada.png",
+      "description": "Estudio de desarrollo de mini juegos offline y experiencias digitales creativas.",
+      "sameAs": [
+        "https://twitter.com/kirunadigital"
+      ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -51,25 +89,146 @@
         <section id="juegos" class="latest-release">
             <div class="container">
                 <div class="section-title">
-                    <h2>Nuestro último lanzamiento</h2>
+                    <h2>Nuestros lanzamientos</h2>
                     <div class="underline"></div>
                 </div>
 
                 <div class="card-featured">
                     <div class="card-visual">
-                        <img src="assets/professional_mockup.png" alt="Juego del Impostor Mockup" class="game-img">
+                        <div class="carousel-container">
+                            <button class="nav-arrow arrow-left" aria-label="Anterior">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                            </button>
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <img src="assets/Impostor_Portada.png" alt="Juego del Impostor Portada"
+                                        class="game-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/Impostor_1_menu.png" alt="Menú" class="game-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/Impostor_2_nombres.png" alt="Nombres" class="game-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/Impostor_3_tarjeta.png" alt="Tarjeta" class="game-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/Impostor_4_revelar.png" alt="Revelar" class="game-img">
+                                </div>
+                            </div>
+                            <button class="nav-arrow arrow-right" aria-label="Siguiente">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                            <div class="carousel-dots">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
                         <div class="visual-accent"></div>
                     </div>
                     <div class="card-content">
                         <div class="tags">
-                            <span class="tag tag-featured">DESTACADO</span>
-                            <span class="tag-category">Estrategia Social</span>
+                            <span class="tag-pill tag-offline">SIN WIFI / OFFLINE</span>
+                            <span class="tag-pill tag-category">ESTRATEGIA SOCIAL</span>
+                            <span class="tag-pill tag-players">2-12 JUGADORES</span>
                         </div>
                         <h3>Juego del Impostor</h3>
                         <p>¿Quién dice la verdad? Sumérgete en este emocionante desafío de deducción social. Juega con
                             amigos en partidas rápidas y llenas de adrenalina.</p>
                         <div class="card-actions">
                             <a href="https://juegodelimpostor.kirunadigital.com/" class="btn btn-primary btn-icon"
+                                target="_blank" rel="noopener">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                                    <path
+                                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                    </path>
+                                </svg>
+                                Jugar en la web
+                            </a>
+                            <button class="btn btn-outline btn-icon disabled" disabled>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                                    <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                                </svg>
+                                Descargar Android
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-featured" style="margin-top: 40px;">
+                    <div class="card-visual">
+                        <div class="carousel-container">
+                            <button class="nav-arrow arrow-left" aria-label="Anterior">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                            </button>
+                            <div class="carousel-track">
+                                <div class="carousel-item">
+                                    <img src="assets/duelo_portada.png" alt="Duelo en Pantalla Portada"
+                                        class="game-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/duelo_2_players.png" alt="Selección de Jugadores" class="game-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/duelo_3_taps.png" alt="Guerra de Taps" class="game-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/duelo_4_tanks.png" alt="Tanque Giratorio" class="game-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/duelo_5_reaction.png" alt="Reacción de Color" class="game-img">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/duelo_6_balloon.png" alt="Globo Explosivo" class="game-img">
+                                </div>
+                            </div>
+                            <button class="nav-arrow arrow-right" aria-label="Siguiente">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                            <div class="carousel-dots">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                        <div class="visual-accent"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="tags">
+                            <span class="tag-pill tag-offline">SIN WIFI / OFFLINE</span>
+                            <span class="tag-pill tag-category">MINI JUEGOS</span>
+                            <span class="tag-pill tag-players">2-4 JUGADORES</span>
+                        </div>
+                        <h3>Duelo en Pantalla</h3>
+                        <p>¡Diversión garantizada sin conexión! Disfruta de los mejores mini games offline para 2 a 4
+                            jugadores en un mismo dispositivo. Desafía a tus amigos en estos mini juegos: Guerra de
+                            taps, Tanque giratorio, Reacción de color y Globo explosivo.</p>
+                        <div class="card-actions">
+                            <a href="https://dueloenpantalla.kirunadigital.com/" class="btn btn-primary btn-icon"
                                 target="_blank" rel="noopener">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -155,6 +314,70 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousels = document.querySelectorAll('.carousel-container');
+
+            carousels.forEach(carousel => {
+                const track = carousel.querySelector('.carousel-track');
+                const dots = carousel.querySelectorAll('.dot');
+                const btnLeft = carousel.querySelector('.arrow-left');
+                const btnRight = carousel.querySelector('.arrow-right');
+
+                if (track && dots.length > 0) {
+                    const updateActiveDot = () => {
+                        const index = Math.round(track.scrollLeft / track.offsetWidth);
+                        dots.forEach((dot, i) => {
+                            dot.classList.toggle('active', i === index);
+                        });
+                    };
+
+                    track.addEventListener('scroll', updateActiveDot, { passive: true });
+
+                    dots.forEach((dot, i) => {
+                        dot.addEventListener('click', () => {
+                            track.scrollTo({
+                                left: i * track.offsetWidth,
+                                behavior: 'smooth'
+                            });
+                        });
+                    });
+
+                    if (btnLeft && btnRight) {
+                        btnLeft.addEventListener('click', () => {
+                            const index = Math.round(track.scrollLeft / track.offsetWidth);
+                            if (index > 0) {
+                                track.scrollTo({
+                                    left: (index - 1) * track.offsetWidth,
+                                    behavior: 'smooth'
+                                });
+                            } else {
+                                track.scrollTo({
+                                    left: (dots.length - 1) * track.offsetWidth,
+                                    behavior: 'smooth'
+                                });
+                            }
+                        });
+
+                        btnRight.addEventListener('click', () => {
+                            const index = Math.round(track.scrollLeft / track.offsetWidth);
+                            if (index < dots.length - 1) {
+                                track.scrollTo({
+                                    left: (index + 1) * track.offsetWidth,
+                                    behavior: 'smooth'
+                                });
+                            } else {
+                                track.scrollTo({
+                                    left: 0,
+                                    behavior: 'smooth'
+                                });
+                            }
+                        });
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
