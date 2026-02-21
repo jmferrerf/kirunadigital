@@ -662,6 +662,47 @@
                 gap: 20px;
             }
         }
+
+        /* Smaller Mobile Adjustments (< 600px) */
+        @media (max-width: 600px) {
+            .card-content {
+                padding: 24px;
+            }
+
+            .card-content h3 {
+                font-size: 28px;
+            }
+
+            .tags {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            .tag-pill {
+                font-size: 11px;
+                padding: 4px 10px;
+            }
+        }
+
+        /* Essential Fix for iPhone 13 Pro Max and smaller (< 480px) */
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .card-visual {
+                padding: 20px;
+            }
+
+            .nav-arrow {
+                width: 40px;
+                height: 40px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
     </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3489614406210288"
         crossorigin="anonymous"></script>
